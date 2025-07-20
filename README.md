@@ -1,16 +1,33 @@
-# gallery
+# Personal Gallery 
 
-A new Flutter project.
+A **minimal-beige, glass-morphism** mobile gallery that lets users  
+- **upload images**  
+- **add labels**  
+- **view them in a grid & full-screen**
 
-## Getting Started
+---
+## Overview 
+<img width="1603" height="1506" alt="photo_gallery_project" src="https://github.com/user-attachments/assets/341acc65-921d-474a-b6e1-0207b3dc96cf" />
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+##  Features
+| Screen | What it does |
+|--------|--------------|
+| **Home** | Welcome page with two glass-morphism buttons |
+| **Gallery** | 2-column grid of thumbnails → tap for full-screen |
+| **Add Image** | Pick image, add label, compress + save to Firestore |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Tech Stack
+| Layer | Choice |
+|-------|--------|
+| **Frontend** | Flutter |
+| **State Mgmt** | GetX |
+| **Backend** | Cloud Firestore |
+| **Images** | Base64 strings (≤ 1 MiB / doc) |
+| **Architecture** | MVVM + Repository pattern |
+
+---
