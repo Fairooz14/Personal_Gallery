@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "807046104354",
+    "project_id": "personal-gallery-26f84",
+    "storage_bucket": "personal-gallery-26f84.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807046104354:android:c946d3b19cfed4e941d17b",
+        "android_client_info": {
+          "package_name": "com.mpairfairooz.personal_gallery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbHtFhcvNgyAktO5phv5jY0i9Vjvefp0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
